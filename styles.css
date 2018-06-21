@@ -1,0 +1,164 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	background-color: #fafafa;
+}
+#main{
+	display: none;
+}
+a{
+	scroll-behavior: smooth;
+}
+.nav-bar{
+	display: block;
+	position: fixed;
+	z-index: 2;
+	background-color: #004896;
+	width: 98.8vw;
+	box-shadow: 2px 2px 20px #666666;
+	height: 8vh;
+	margin-top: -1.2rem;
+	overflow:hidden;
+}
+.nav-bar p{
+	font-family: 'Lobster',cursive;
+	text-transform: none;
+	font-size:2.5rem;
+	position: relative;
+	left:25vw;
+	color: #fff;
+	bottom: 60%;
+}
+.nav-bar a,p{
+	float: left;
+	display: inline-block;
+	color: #fff;
+	font-size:2rem;
+	padding:0.2rem 1vw 0 1vw;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Century Gothic";
+	transition: color 0.5s ease;
+}
+.nav-bar a{
+	margin-top: 0.5rem;
+}
+.material-icons.md-48 {font-size: 48px;}
+.material-icons.md-light{color: #fff;}
+.links{
+	position: absolute;
+	left:62vw;
+}
+.links a:hover{
+	color: #ff0000;
+}
+.banner{
+	width: 98vw;
+	height: 50vw;
+	margin-top: 1rem;
+	margin-left: .25rem;
+	position: relative;
+	top: 2rem;
+	background-image: url("banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 2px 2px 20px #666666;
+	border-bottom: 2px solid #000;
+}
+.banner-text{
+	position: absolute;
+	left: 15vw;
+	top:20%;
+}
+.banner-text h1{
+	font-size: 5rem;
+	font-family: 'Lobster',cursive;
+}
+.banner-text h2{
+	font-size: 2.25rem;
+}
+.banner-text h3{
+	font-size:2rem;
+}
+#scroll {
+	position: absolute;
+	left: 48vw;
+	bottom: 7%;
+}
+#schedule
+{
+	position: relative;
+	top:3rem;
+	left:0.2vw;
+	box-shadow: 2px 2px 20px #666666;
+	border-top: 2px solid #000;
+}
+.lds-css{
+	position: absolute;
+	top: 42%;
+	left: 45%;
+}
+@media screen and (max-width: 1400px)
+{
+	.links{
+		font-size: 1.5rem;
+		left:55vw;
+	}
+	.nav-bar p{
+		left:20vw;
+	}
+}
+@media screen and (max-width: 1200px)
+{
+	.nav-bar p{
+		left:10vw;
+	}
+	.nav-bar a p{
+		padding:0 .5vw 0 0.5vw;
+	}
+	.links{
+		left:50vw;
+	}
+	.banner{
+		height:40vw;
+	}
+	.banner-text h1{
+	font-size: 3.5rem;
+    }
+.banner-text h2{
+	font-size: 2rem;
+}
+.banner-text h3{
+	font-size:1.5rem;
+}
+}
+@media screen and (max-width: 1100px)
+{
+	.links{
+		display: none;
+	}
+	.nav-bar p{
+		left: 28vw;
+		font-size: 2rem;
+		bottom: 30%;
+	}
+	.banner{
+		height: 40vw;
+	}
+	.banner-text{
+		left:10vw;
+		top:10%;
+	}
+	.banner-text h1{
+	font-size: 3.5rem;
+   }
+.banner-text h2{
+	font-size: 1.5rem;
+}
+.banner-text h3{
+	font-size:1rem;
+}
+#scroll{
+	width: 5%;
+}
+}
