@@ -83,7 +83,8 @@ a{
 #scroll {
 	position: absolute;
 	left: 48vw;
-	bottom: 7%;
+	bottom: 10%;
+	width:5%;
 }
 #schedule
 {
@@ -157,8 +158,5 @@ a{
 }
 .banner-text h3{
 	font-size:1rem;
-}
-#scroll{
-	width: 5%;
 }
 }
