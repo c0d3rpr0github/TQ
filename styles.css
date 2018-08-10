@@ -83,7 +83,7 @@ a{
 #scroll {
 	position: absolute;
 	left: 48vw;
-	bottom: 10%;
+	bottom: 100px;
 	width:5%;
 }
 #schedule
